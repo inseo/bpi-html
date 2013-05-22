@@ -1,0 +1,44 @@
+<!doctype html>
+<!--[if (lte IE 6)&!(IEMobile)]> <html lang="fr" class="ie6 old-ie no-js"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]> <html lang="fr" class="ie7 old-ie no-js"> <![endif]-->
+<!--[if (IE 8)&!(IEMobile)]> <html lang="fr" class="ie8 old-ie no-js"> <![endif]-->
+<!--[if (gt IE 8)&!(IEMobile)]><!--> <html lang="fr" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Base (pour un support IE 7)</title>
+	<meta name="viewport" content="width=device-width" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');
+	</script>
+</head>
+
+<body role="document">
+	<ul id="skip-nav">
+		<li><a href="#nav">menu</a></li>
+		<li><a href="#content">contenu</a></li>
+		<li><a href="#search">recherche</a></li>
+	</ul>
+
+	<div id="container">
+		<div id="header" role="banner">
+			<form id="search" role="search" action="" method="">
+			</form><!-- #search -->
+			<div id="nav" role="navigation">
+			</div><!-- #nav -->
+		</div><!-- #header -->
+		<div id="content">
+			<div id="main" role="main">
+			</div><!-- #main -->
+			<div id="aside" role="complementary">
+			</div><!-- #aside -->
+		</div><!-- #content -->
+		<div id="footer" role="contentinfo">
+		</div><!-- #footer -->
+	</div><!-- #container -->
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
